@@ -1,0 +1,189 @@
+/*-------CSS Reset-------*/
+
+*{
+padding: 0px; 
+margin: 0px;
+font-size: 100%;
+line-height: 1em;    
+}
+
+/*-------Main Styling-------*/
+
+body{
+    width: 80%;
+    max-width: 670px;
+    margin: auto;
+    background: #fafafa;
+    color: #333;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
+/*-------Specified Styling-------*/
+
+h1, h2, h3{
+    font-weight: normal;
+    color: #FF9C86;
+    text-align: center;
+}
+
+p, cite{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, blockquote{
+    margin: 0 0 1.5em 0;
+    line-height: 1.5;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+    font-size: 2.827em;
+    margin: 1em 0 0.5em 0;
+}
+
+h2{
+    font-size: 1.999em;
+    margin: 1em 0 1em 0;
+}
+
+h3{
+    font-size: 1.414em;
+    margin: 1.5em;
+}
+
+blockquote{
+    font-size: 1.25em;
+    hanging-punctuation: first;
+    text-indent: -0.44em;
+    color: #FF9C86
+}
+
+blockquote cite{
+    font-size: 0.75em;
+    color: #333;
+
+}
+/*-------styling links------*/
+a{
+    color:#38ebc4;
+    text-decoration: none;   
+        
+}
+
+a:hover{
+    
+    color: chocolate;
+    border-bottom: 1px solid; 
+}
+
+/*-----navagation----*/
+nav{
+   position: fixed;
+    top: 0;
+    left: 0;
+    margin:0;
+    width:100%;
+    background-color:#B58C84;
+    padding: 1em 0;
+    font-size: :0.75em;
+    
+}
+
+nav ul{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+        
+}
+
+nav ul li{
+    display: inline;
+    margin:20px;
+        
+    
+}
+
+nav a:link{
+    color:#fafafa;
+    
+        
+    
+}
+
+nav a:hover{
+    border-bottom: none;
+    color:#fafafa;
+    
+    
+}
+
+
+
+nav a:visited{
+    color:#fafafa;
+}
+    
+    .baskerville{
+        background:
+        color:#FCD46F;
+        padding:
+    }  
+ol li{
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+table{
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+caption{
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+
+th{
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    background: #5032FF;
+}
+
+th, td{
+    padding: 0.75em;
+}
+
+table, td{
+    background: #fafafa;
+    border:  1px solid #8C80FF;
+}
+
+
+img{
+    
+display: block;
+margin: 3em auto;
+padding: 0;
+max-width: 100%;
+    
+    
+    
+    
+
+}
+/*-------Footer-------*/
+footer{
+    text-align: center;
+    font-size: 0.707em;
+    padding: 2em 0 4em 0;
+}
