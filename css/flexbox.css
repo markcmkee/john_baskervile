@@ -181,6 +181,21 @@ max-width: 100%;
     
 
 }
+
+
+article {
+    display: flex;} 
+   
+   
+.main{ flex: 3;
+    padding-right: 1em }
+   
+aside { flex: 1;  
+        font-size: 0.75em;
+        font-style: italic; 
+        border-left: 1px solid #c06;
+        padding-left: 1em}
+        
 /*-------Footer-------*/
 footer{
     text-align: center;
